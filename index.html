@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <article class="date-container">
+            <form class="form-data">
+                    <div class="form-data-divs">
+                        <div>
+                            <p>DAY</p>
+                            <input type="text" placeholder="DD" id="day" min="1" max="31">
+                        </div>
+                        <div>
+                            <p>MONTH</p>
+                            <input type="text" placeholder="MM" id="month" min="1" max="12">
+                        </div>
+                        <div>
+                            <p>YEAR</p>
+                            <input type="text" placeholder="YYYY" id="year" min="1900">
+                        </div>
+                        <p class="text"></p>
+                    </div>
+                <button class="buton-dates-all"><img src="./image/icon-arrow.svg"></button>
+                
+            </form>
+            <div class="container-data-day">
+                <div><span class="dateYears colorPurple">--</span><span> Years</span></div>
+                <div><span class="dateMonths colorPurple">--</span><span> Months</span></div>
+                <div><span class="dateDays colorPurple">--</span><span> Days</span></div>
+            </div>
+        </article>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
